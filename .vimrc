@@ -218,10 +218,10 @@ autocmd BufReadPost *
   \ endif
 
 " Set relative line numbers
-set relativenumber " Use relative line numbers. Current line is still in status bar.
-au BufReadPost,BufNewFile * set relativenumber
+" set relativenumber " Use relative line numbers. Current line is still in status bar.
+" au BufReadPost,BufNewFile * set relativenumber
 
-" Emulate bundles, allow plugins to live independantly. Easier to manage.
+" Emulate bundles, allow plugins to live independently. Easier to manage.
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
