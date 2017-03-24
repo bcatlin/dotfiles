@@ -24,3 +24,16 @@ export LANG="en_US"
 # Add tab completion for `defaults read|write NSGlobalDomain`
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults
+export PATH=/usr/local/bin:$PATH
+
+[ -s "/Users/bcatlin/.nvm/nvm.sh" ] && . "/Users/bcatlin/.nvm/nvm.sh" # This loads nvm
+
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PATH
+
+# Setup OTPL deploy scripts
+PATH="/Users/bcatlin/Documents/git/otpl-deploy-scripts/bin:${PATH}"
+export PATH
+

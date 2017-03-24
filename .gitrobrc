@@ -1,0 +1,4 @@
+---
+sql_connection_uri: postgres://gitrob:gitrob@localhost:5432/gitrob
+github_access_tokens:
+- 21663aa64b73be62676f0be6e7c0e4df7b349339

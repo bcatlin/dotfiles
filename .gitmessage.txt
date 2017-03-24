@@ -1,0 +1,2 @@
+[ticket] short summary
+detailed description, if necessary
