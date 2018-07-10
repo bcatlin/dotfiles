@@ -34,6 +34,12 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 
 # Setup OTPL deploy scripts
-PATH="/Users/bcatlin/Documents/git/otpl-deploy-scripts/bin:${PATH}"
+PATH="/Users/bcatlin/git/otpl-deploy-scripts/bin:${PATH}"
 export PATH
 
+
+# added by Anaconda3 4.4.0 installer
+#export PATH="/anaconda/bin:$PATH"
+
+# added by Miniconda3 installer
+export PATH="/Users/bcatlin/miniconda3/bin:$PATH"
